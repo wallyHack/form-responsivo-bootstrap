@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <style>
+        body{
+            background: #2980B9;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+    </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container w-75 bg-primary my-5 rounded shadow">
+        <div class="row align-items-stretch">
+            <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+                <img src="img/login-2.jpg"  class="w-75 h-75 rounded mt-5 mx-5" alt="">
+            </div>
+
+            <div class="col bg-white p-5 rounded-end">
+                <div class="text-end">
+                    <img src="img/logo_design.svg" width="48" alt="">
+                </div>
+
+                <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+                <!-- LOGIN -->
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Mantenerme conectado
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    </div>
+
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="#">Registrate</a></span><br>
+                        <span><a href="#">Recuperar password</a></span>
+                    </div>
+                </form>
+
+                <!-- LOGIN CON REDES SOCIALES -->
+                <div class="container w-100 my-5">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            Iniciar Sesión
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-content-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/facebook.jpg" width="32" alt="">
+                                    </div>
+                                    
+                                    <div class="col-12 col-md-10 text-center">
+                                        Facebook
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="col">
+                            <button class="btn btn-outline-danger w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2 d-none d-md-block">
+                                        <img src="img/google.png" width="32" alt="">
+                                    </div>
+
+                                    <div class="col-12 col-md-10 text-center">
+                                        Google
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Popper Js -->
+    <script src="js/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
